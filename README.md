@@ -9,11 +9,6 @@ main.ipynb: This Jupyter Notebook contains the entire implementation of the AI R
 - Transformers by Hugging Face: Used for initializing and running the language model (NousResearch/Meta-Llama-3.1-8B).
 - Sentence-Transformers: Utilized for embedding emergency descriptions into vector space.
 - FAISS (Facebook AI Similarity Search): Implemented as the vector database for fast similarity searches.
-- Python Libraries:
-  torch: For handling GPU operations and model computations.
-  faiss-cpu: For vector similarity searches.
-  aiohttp and asyncio: For asynchronous programming.
-  random: To generate random ETA for doctor arrival.
 
 ## How It Works
 1. Initialization: The AI receptionist initializes the LLM (Language Model) and the Sentence Transformer model for encoding emergency
